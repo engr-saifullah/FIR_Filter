@@ -253,7 +253,7 @@ frequency (down to about 42 MHz while still meeting 1 MSps) if minimizing dynami
 the priority instead of resource count, or kept as design margin against routing delays on a
 larger device.
 
-![Vivado simulation waveform showing output valid in 42 clock cycles](docs/images/fig2_waveform_42cycles.png)
+![Vivado simulation waveform showing output valid in 42 clock cycles](docs/images/420ns_completion_proof.png)
 
 *Figure 2: Vivado simulation waveform showing output valid in 42 clock cycles.*
 
@@ -311,7 +311,7 @@ golden model's expected output values.
 Simulation showed the design's output matching the golden model exactly, sample for sample,
 confirming that the RTL implementation is functionally correct.
 
-![Vivado simulation waveform showing the FIR filter output matching the golden model's expected values](docs/images/fig4_waveform_verification.png)
+![Vivado simulation waveform showing the FIR filter output matching the golden model's expected values](docs/images/simulation_output.png)
 
 *Figure 4: Vivado simulation waveform showing the FIR filter output matching the golden
 model's expected values.*
